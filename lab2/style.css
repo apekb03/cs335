@@ -1,0 +1,46 @@
+:root {
+    --bg-color: #996666;
+    --bg-color2:#ffcc99;
+    --txt-color:#000000;
+}
+:root[theme="dark"]{
+    --bg-color: #000000;
+    --bg-color2:#ffcc99;
+    --txt-color:#ffffff;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    font-family: Arial;
+    font-size:18;
+}
+div{
+    background-color: var(--bg-color2);
+    color: var(--txt-color);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15pt
+}
+
+div{
+    background-color: var(--bg-color2);
+    border-radius: 1em;
+    padding:1em;
+    margin:1em;
+}
+toggle{
+    position: fixed;
+    bottom:0.5em;
+    right:0.5em;
+    background-color: var(--txt-color);
+    color:var(--bg-color);
+    padding:0.5em;
+    border-radius:0.5em;
+    
+}
+
+toggle:hover{
+    background-color:var(--bg-color2);
+    color:var(--txt-color);
+    border:solid 1px var(--txt-color);
+    cursor:pointer;
+}
