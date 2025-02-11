@@ -1,0 +1,51 @@
+body {
+    background-color: aquamarine;
+    color:black;
+    font-family: "Graduate", sans-serif;
+    font-size: 25px;
+}
+
+#carousel {
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    width:500px;
+    overflow-x: hidden;
+}
+
+.card {
+    min-width: 500px;
+    max-width: 500px;
+    padding: 1em;
+    display:grid;
+    grid-template-areas:
+        "image name"
+        'image email'
+        'image phone'
+        'image address';
+}
+
+h2,h3,h4,h5 {
+    margin: 0px;
+}
+.card img{
+    grid-area: image;
+    border-radius:100%;
+}
+
+.card h3 {
+    grid-area: name;
+}
+
+.card h4 {
+    grid-area: email;
+}
+
+.card h5 {
+    grid-area: phone;
+}
+
+.card p {
+    grid-area: address;
+}
