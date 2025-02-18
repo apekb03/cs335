@@ -20,14 +20,34 @@ h1{
 
 #search {
     margin: 0 auto;
-    width: 20%;
+    width: 30%;
     padding: 10px;
-    background-color: #ededec;
+    background-color: white;
     text-align: center;
     margin-left: 35%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+#button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
 }
 
-#breeds:hover {
-    background-color: #16c80d;
-    color: rgb(67, 34, 34);
+#button:hover {
+    cursor:pointer;
+    background-color:#21bc26;
+}
+
+image{
+    width: 100%;
+    height: 100%;
+    margin-left: 50%;
 }
