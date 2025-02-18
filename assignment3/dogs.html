@@ -1,8 +1,35 @@
 <html>
-    <head>Dog Breeds
+    <head>
+        <div>Search for a Dog Breed</div>
+        <link rel="stylesheet" href="dogs.css">
     </head>
     <body>
-       <br>Hello
+       <h1 id="breedName">Find Dog Images for Your Favorite Breed</h1>
+       <input type="text" id="search" list="breeds" placeholder="Type a dog breed">
+         <datalist id="breeds">
+            <option value="Akita">
+              <option value="Beagle">
+              <option value="Boxer">
+              <option value="Bulldog">
+              <option value="Chihuahua">
+              <option value="Dalmatian">
+              <option value="Doberman">
+              <option value="German Shepherd">
+             <option value="Retriever">              
+             <option value="Dane">
+              <option value="Retriever">
+              <option value="Poodle">
+              <option value="Pug">
+              <option value="Rottweiler">
+              <option value="Husky">
+              <option value="Terrier">
+        </datalist>
+        <!-- ask prof how to search by clicking on the option -->
+       <button onclick="search()">Search</button>   
+<!-- style =display:none doesnt show image n=until searched -->
+       <img src="" style="display:none" id="photo">
+
     </body>
     <script src="dogs.js"></script>
 </html>
+
