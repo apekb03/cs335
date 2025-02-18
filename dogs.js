@@ -23,6 +23,12 @@ function search() {
         
         dogImage.style.display = "block"; // Show image
 
+        //this works but cannot erase name after we search a new breed!! 
+
+        // const para = document.createElement("p");
+        // para.innerText =  `${breedName.charAt(0).toUpperCase()+ breedName.slice(1)}`;
+        // document.body.appendChild(para);
+
         clearTimeout(nextImageTimer);
         nextImageTimer=setTimeout(nextImage,5000);
         photo.onclick=nextImage
